@@ -65,7 +65,6 @@ output "this_slb_tags" {
 }
 
 // Output the new slb listener created
-
 output "this_slb_udp_listener_ids" {
   description = "The id of slb listeners."
   value       = module.slb_udp_listener.this_slb_listener_ids
